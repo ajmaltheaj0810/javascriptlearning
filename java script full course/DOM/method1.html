@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>
+        document
+    </title>
+</head>    
+<body>
+   <ul id="rear">
+       <li>home</li>
+       <li>about</li>
+        <li>contact us</li>
+   </ul>
+    <script>
+    
+     let menu=document.getElementById("rear");
+    //  menu.innerHTML="shop";
+
+    //  <!-- Element.after(node) it is a syntax for it -->
+    //  parentNode.append(newNodes);
+    // parentNode.prepend(newNodes);
+    // element.insertadjacentHTML(positionName,text)
+    menu.insertAdjacentHTML("afterbegin","<li>item</li>")
+    // replace childmethod parentNode.replaceChild(newChild,oldChild);
+    // clonenode will have the copy of the element
+    let newnode=menu.cloneNode(true);//it will clone the element in the console 
+    // if we write false it will not show the element in the console
+    console.log(newnode);
+
+
+    </script>
+</body>
+</html>

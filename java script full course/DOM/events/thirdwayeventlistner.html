@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            document
+        </title>
+    </head>
+    <body>
+    <div id="container">
+        <button id="button">click here</button>
+    </div>
+    <script>
+    let btn=document.getElementById("button");
+    // addEventListener(event,function,useCapture)
+       btn.addEventListener('click',function(){console.log("button clicked")});
+    // btn.removeListener(event,function)
+    </script>
+    </body>
+</html>

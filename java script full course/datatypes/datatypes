@@ -1,0 +1,35 @@
+// string 
+// boolean
+// number
+// null
+// undefined
+// this all are primitive datatypes
+
+// object
+// array
+// function
+// this all are reference datatypes
+
+// string data type:
+//         string starts with a single quotes or double quotes
+//         // example:let sample1="var";
+//         //         let sample2='vare'; they both are acceptable.
+// number data type: 
+// number data type can be integer and floating point.
+//         example: let num=09; 
+// 
+// boolean datatype:
+//          it will show the message true or false
+//         example: let bool=true;
+// 
+// undefined datatype:
+//          if a variable is declared but the value is not defined ,then that value of variable will be undefined.
+// 
+// object
+//             let person={fname:"elon",lname:"mask",age:9}; 
+//              console.log(person);
+//              eg:fname:elon,lname:mask:age:9
+// array it is a ccollection of object.
+// let arr=[1,2,3,4,5];
+// 
+// function: it a creation of function

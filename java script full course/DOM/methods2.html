@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>
+        document
+    </title>
+</head>    
+<body>
+   <ul id="rear">
+       <li>home</li>
+       <li>about</li>
+        <li>contact us</li>
+   </ul>
+    <script>
+     let menu=document.getElementById("rear");
+
+     menu.removeChild(menu.firstElementChild);
+    //  it will remove the chikd elements from the id.
+    //  menu.insertBefore(home,menu.firstElementChild)
+</script>
+</body>
+</html>

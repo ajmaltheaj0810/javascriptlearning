@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            document
+        </title>
+    </head>
+    <body>
+        <input type="text" id="it"placeholder="username">
+        <script>
+            let input=document.getElementById("it");
+            // console.log(input.getAttributes("type")) it will show the type of the attribute
+            // console.log(inputsetattribute("name","value"))name of the property and what value we want to set
+            // hasattribute("class");it will check whether it is present or not
+            // removeattribute("id");it will remove the attribute .
+            input.setAttribute("class","text");
+            console.log(input.attributes);
+        
+        </script>
+    </body>
+</html>

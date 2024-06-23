@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            document
+        </title>
+    <style>
+        input{
+        background-color:white;
+        border-radius:5px;
+        padding-top:5px;height:20px
+        }
+        </style>
+    </head>
+    <body>
+        <input type="text" id="it"placeholder="username">
+        <script>
+        //   window.getComputedStyle(element,pseudoelement)
+
+        let input=document.getElementById("it");
+        console.log(window.getComputedStyle(input)); 
+        //it will display all the css property .value will display the property of the element
+        </script>
+    </body>
+</html>

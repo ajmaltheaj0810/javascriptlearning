@@ -1,0 +1,21 @@
+// visibility of variables in javascript
+// there are three types of scopes in javascript
+// 1.global scopes
+// 2.function scopes
+// 3.block scopes
+
+// global scope :
+//               global scope is the outermost scope in javascript.variables and function can be accessible anywhere in the function.
+//               example :
+//             //   var x = 10 ;
+//              function example(){
+//             //   console.log(x);}
+//            console .log(x);
+//             example(); it will print 10 10
+
+// function scopes  
+//              function copes are visible within the function
+
+// 
+// block scope              
+//            visibility of variable within a block of codes that are enclosed within{}

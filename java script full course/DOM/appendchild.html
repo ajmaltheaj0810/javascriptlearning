@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>
+        document
+    </title>
+</head>    
+<body>
+   <ul id="rear">
+       <li>home</li>
+       <li>about</li>
+        <li>contact us</li>
+   </ul>
+    <script>
+    
+     let menu=document.getElementById("rear");
+     let list=document.createElement("li");
+     list.innerHTML="main";
+     menu.appendChild(list);
+     console.log(menu);
+     console.log(menu.innerText);
+    //  menu.textContent="hello"
+    </script>
+</body>
+</html>
+<!-- when we menu.textContent="hello" it will display the hello word and femove all the
+ visible text present in the webpage -->

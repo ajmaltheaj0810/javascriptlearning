@@ -1,0 +1,9 @@
+var ,const ,let 
+
+this are the keyword that are used to generate the js variables
+ 
+ let keyword can executed within the block of the elements.if we execute the cod eoutside the block it will give an error message.
+
+ const keyword are used to declare a constant variable.const keyword can not be reassign the value.if we assign any values we will get the 
+ error messge
+ 
